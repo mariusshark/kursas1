@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html101</title>
+</head>
+
+<body>
+
+    <svg width="204" height="204">
+
+        <!--first row-->
+
+        <rect x="1" y="1" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="51" y="1" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <circle cx="75.5" cy="25.5" r="20" stroke="white" stroke-width="3" fill="silver">
+        </circle>
+        <rect x="102" y="1" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="153" y="1" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        
+        <!-- second row-->
+        
+        </rect>
+        <rect x="1" y="51" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <rect x="51" y="51" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="102" y="51" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <circle cx="126.5" cy="75.5" r="20" stroke="white" stroke-width="3" fill="silver">
+        </circle>
+        <rect x="153" y="51" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+
+        <!--third row-->
+
+        <rect x="1" y="102" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="51" y="102" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <circle cx="75.5" cy="125.5" r="20" stroke="white" stroke-width="3" fill="blue">
+        </circle>
+        <rect x="102" y="102" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="153" y="102" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        
+        <!--fourth row-->
+        
+        <rect x="1" y="153" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <rect x="51" y="153" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+        <rect x="102" y="153" width="50" height="50" stroke="black" stroke-width="1" fill="black">
+        </rect>
+        <circle cx="126.5" cy="175.5" r="20" stroke="white" stroke-width="3" fill="blue">
+        </circle>
+        <rect x="153" y="153" width="50" height="50" stroke="black" stroke-width="1" fill="white">
+        </rect>
+
+
+
+    </svg>
+
+
+
+    </body>
+
+</html>
