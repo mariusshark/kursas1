@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="LT">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+          
+    <title>css6</title>
+</head>
+
+<body>
+
+    <fieldset class="box">
+        <legend class="infotext">Jūsų informacija</legend>
+        <table border="0">
+
+            <tr>
+                <td>
+                    <label>Vardas:</label>
+                    &nbsp;&nbsp;<input type="text" id="vardas:">
+                </td>
+            <tr>
+                <td>
+                    <label>Pavardė:</label>
+                    <input type="text" id="pavarde:">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset class="box">
+        <legend class="infotext">Klausimai</legend>
+        <label>Kaip sužinojote apie mus?</label>
+        <select>
+            <option>Google</option>
+            <option>Yandex</option>
+            <option>Facebook</option>
+        </select>
+        <br>
+        <br>
+
+        Ar apsilankysite vėl?
+        <br>
+
+
+        <label id="choice"></label>
+        <label for="Taip">Taip</label>
+        <input type="radio" id="Taip" name="apsisprendimo pasirinkimas">
+        <label for="Ne">Ne</label>
+        <input type="radio" id="Ne" name="apsisprendimo pasirinkimas">
+        <label for="Galbūt">Galbūt</label>
+        <input type="radio" id="Galbūt" name="apsisprendimo pasirinkimas">
+        <p></p>
+
+        Ką manote apie kursą?
+        <br>
+        <label id="choice2"></label>
+        <textarea name="Ką manote apie kursą?" id="choice4" cols="70" rows="8" placeholder=" Rašykite viską ką galvojete"></textarea>
+        <p>
+        </p>
+
+        Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:
+        <label id="choice3"></label>
+
+        <table border="0">
+            <tr>
+                <td>
+                    <input type="checkbox" id="C#" name="programavimo kalbos" checked>
+                    <label for="C#">C#</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" id="JAVA" name="programavimo kalbos" checked>
+                    <label for="JAVA">JAVA</label>
+                    <input type="checkbox" id="PHP" name="programavimo kalbos" checked>
+                    <label for="PHP">PHP</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="HTML" name="programavimo kalbos" checked>
+                    <label for="HTML">HTML</label>
+                    &nbsp;&nbsp;<input type="checkbox" id="CSS" name="programavimo kalbos" checked>
+                    <label for="CSS">CSS</label>
+                    &nbsp;<input type="checkbox" id="JavaScript" name="programavimo kalbos" checked>
+                    <label for="JavaScript">JavaScript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <input type="checkbox" id="Python" name="programavimo kalbos" checked>
+                    <label for="Python">Python</label>
+                    &nbsp;&nbsp;<input type="checkbox" id="Ruby" name="programavimo kalbos" checked>
+                    <label for="Ruby">Ruby</label>
+
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <br>
+
+        <button id="button" type="submit" value="Submit">Siūsti</button>
+
+
+    </fieldset>
+
+
+</body>
+
+</html>

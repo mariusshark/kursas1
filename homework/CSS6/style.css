@@ -1,0 +1,29 @@
+.infotext {
+    
+    color: darkgreen;
+    background: chartreuse;
+    border-radius: 10px;
+    
+}
+
+.box {
+    
+    background: green;
+   border-radius: 10px;
+    
+    
+}
+#button{
+    
+    background-color: chartreuse;
+    color:darkgreen;
+    border-radius: 20px;
+    
+}
+#choice4 {
+    
+    background: black;
+   color: white;
+    border-bottom-color: chartreuse;
+    
+}
