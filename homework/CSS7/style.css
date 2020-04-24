@@ -1,0 +1,36 @@
+
+*
+{
+    margin: 2px;
+    padding: 0px;
+    }
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+   position: relative;
+    box-shadow: 1px 1px 2px;
+    font-size: 80px;
+
+    border: -1 solid silver;
+    
+    
+    
+    
+}
+td:hover{
+    background: red;
+}
+.weekend{
+    background: orange;
+}
+.days{
+   font-family:cursive;
+    font-size: 20px;
+   
+    
+    
+
+    
+    
+}
